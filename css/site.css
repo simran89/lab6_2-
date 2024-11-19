@@ -1,0 +1,197 @@
+@media (max-width:1200) {
+    nav{
+        float: left;
+        width: 200px;
+        font-weight: bold;
+        letter-spacing: 0.1em;
+        display: block;
+        unicode-bidi: isolate;
+     } 
+     nav a {
+        display: block;
+        padding: 0.5em 0;
+        text-align: center;
+        text-decoration: none;
+        padding: 20px;
+        background-color:pink;
+        border-bottom: 1px solid white;
+        color: white;
+    
+}
+}
+#wapper{
+    width: auto;
+}    
+ 
+ #wapper{
+    background-color: #b3c7e6;
+    color:#000066;
+    width: 80%;
+    margin: auto;
+    
+ }
+ * {
+    box-sizing: border-box;
+ }
+ header{
+    background-color: #869dc7;
+    color: #00005D;
+    font-size: 150%;
+    padding: 10px 10px 10px 155px;
+    background-image: url(../images/lighthouselogo.jpg);
+    background-repeat: no-repeat;
+    display: block;
+ }
+ div{
+    display: block;
+    unicode-bidi: isolate;
+ }
+ body{
+    margin: 8px;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:#b3c7e6;
+ }
+ nav li {
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+
+ }
+ nav ul{
+    list-style-type: none;
+    margin-left: 0;
+    padding: 0%;
+ }
+ nav{
+    float: none;
+    width: auto;
+ }
+ nav{
+    float: left;
+    width: 200px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    display: block;
+    unicode-bidi: isolate;
+ }
+ * {
+    box-sizing: border-box;
+ } 
+ nav a {
+    display: block;
+    padding: 0.5em 0;
+    text-align: center;
+    text-decoration: none;
+    padding: 20px;
+    background-color:pink;
+    border-bottom: 1px solid white;
+    color: white;
+
+ }
+ main{
+    margin-left: 0;
+    padding: 10px 20px;
+    display: block;
+    background-color: #ffffffff;
+    color: #0000;
+    overflow: auto;
+    
+ }
+ h1{
+    font-size: 120%;
+    margin-bottom: 20px;
+    display: block;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    font-weight: bold;
+    unicode-bidi: isolate;
+
+ }
+h2{
+    font-size: 100%;
+    color: #869dc7;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    font-weight: bold;
+    unicode-bidi: isolate;
+
+
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    unicode-bidi: isolate;
+    font-size: 90%;
+    color:black;
+}
+footer {
+    font-size: 70%;
+    clear: right;
+    background-color: #869dc7;
+    text-align: center;
+    font-size: 14px;
+    border-bottom: #1d2b3b solid 7px;
+    padding: 10px;
+    color: #00005D;
+}
+#floatright {
+    margin: 10px;
+    float: right;
+}
+img{
+    width: 250px;
+    aspect-ratio: auto 250/355;
+    height: 355px;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+/*mobile view*/
+@media (max-width: 500px) {
+    #wapper{
+         font-size: 3em;
+    }
+    nav a {
+        text-align: left;
+        background-color: #b3c7e6;
+    }
+
+    nav {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #ccc;
+    }
+ 
+}
+/*tablet view*/
+@media (max-width:900){
+    nav a {
+        display: flex; 
+        flex-direction: row; 
+        justify-content: space-between; 
+        align-items: center; 
+        width: 100%; 
+        background-color: #b3c7e6; 
+ }
+ nav a {
+    flex: 10; 
+        text-align: center; 
+        padding: 10px 0; 
+        margin: 0 5px; 
+        text-decoration: none; 
+        color: white; 
+        background-color: pink; 
+        border-radius: 5px;
+
+ }
+}
